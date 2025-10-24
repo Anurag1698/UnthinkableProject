@@ -529,7 +529,6 @@ class LLMExplanationGenerator:
         api_key = os.getenv("OPENROUTER_API_KEY")
         self.primary_model = os.getenv("LLM_MODEL", "meta-llama/llama-4-maverick:free")
         print(f"Loading .env from: {env_path}")
-        print(api_key)
         print(self.primary_model)
         # Fallback models in case primary hits rate limit (ordered by preference)
         self.fallback_models = [
