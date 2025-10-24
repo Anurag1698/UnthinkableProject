@@ -1,0 +1,10 @@
+# Environment Configuration
+SECRET_KEY=your-secret-key-change-this-in-production
+OPENROUTER_API_KEY=your-api-key-here
+
+# Database Configuration
+DATABASE_URL=sqlite:///ecommerce_recommender.db
+
+# Flask Configuration
+FLASK_ENV=development
+FLASK_DEBUG=True

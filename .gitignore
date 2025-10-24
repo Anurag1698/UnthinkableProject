@@ -1,0 +1,16 @@
+# Project .gitignore for Unthinkable
+
+# Environment / secrets
+.env
+
+# Database files
+*.db
+*.sqlite3
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+myenv/
